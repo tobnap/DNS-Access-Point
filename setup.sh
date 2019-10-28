@@ -1,4 +1,4 @@
-sudo apt-get install dnsmasq hostapd
+sudo apt-get -y install dnsmasq hostapd
 sudo wget -q https://git.io/JeReo -O /etc/dhcpcd.conf
 sudo service dhcpcd restart
 sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.orig  
