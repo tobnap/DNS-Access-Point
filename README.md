@@ -27,7 +27,7 @@ With the prerequisites done, you can proceed with the installer steps below.
 Install the hotspot from your RaspberryPi's shell prompt:
 Insert you Zerotier One network id where it says "(insert id)"
 ```sh
-wget -q https://git.io/JeuJ8 -O /tmp/dnsaccesspt && bash /tmp/zthotspot (insert id)
+wget -q https://git.io/JeuJ8 -O /tmp/dnsaccesspt && bash /tmp/dnsaccesspt
 ```
 
 Add the line below to the dnsmasq config
